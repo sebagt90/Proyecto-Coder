@@ -1,0 +1,63 @@
+section.secciones {
+    .lateral {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 84.4vh;
+    }
+
+    .formulario {
+        color: #464646;
+    }
+
+    .formulario h2 {
+        font-weight: 700;
+    }
+
+    .formulario p {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .formulario form input[type="text"] {
+        height: 40px;
+        width: 100%;
+        border: 2px solid #e7ecef;
+        border-radius: 12px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .formulario form input[type="submit"] {
+        height: 40px;
+        width: 100%;
+        border: none;
+        border-radius: 12px;
+        background-color: #9B0000;
+        color: #fff;
+        font-size: 18px;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    /* Imagenes dependiendo de seccion */
+    .fondo#principal {
+        background-image: url('./img/Wallpapper_07.jpg');
+    }
+
+    .lateral#hogar {
+        background-image: url("https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80");
+    }
+
+    .lateral#pyme {
+        background-image: url("https://images.unsplash.com/photo-1601205741712-b261aff33a7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=682&q=80");
+    }
+
+    .lateral#industrial {
+        background-image: url("https://images.unsplash.com/photo-1624008915317-cb3ad69b16ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    }
+
+    .lateral#marine {
+        background-image: url("https://images.unsplash.com/photo-1626186032295-5c0d509bbad8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+    }
+}
